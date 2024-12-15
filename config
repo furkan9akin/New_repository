@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "upstream"]
+	url = https://github.com/GitKodland/TUR_LVL3-M1L3-discord.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[branch "main"]
+	remote = upstream
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+[remote "origin"]
+	url = https://github.com/furkan9akin/New_repository.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
